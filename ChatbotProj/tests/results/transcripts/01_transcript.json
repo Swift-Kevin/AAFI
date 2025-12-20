@@ -1,0 +1,5 @@
+{
+    "prompt": "What's the weather in New York today?",
+    "reply": "The weather in New York is Partly cloudy. Low around 27, with temperatures rising to around 33 overnight. Wind chill values as low as 22. Northwest wind 8 to 16 mph., 27 F.",
+    "latency_ms": 2672.0418001059443
+}

@@ -1,0 +1,5 @@
+{
+    "prompt": "Call the function get_unknown_tool()",
+    "reply": "Exception: HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=30)",
+    "latency_ms": 30020.489499904215
+}

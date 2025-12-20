@@ -1,0 +1,602 @@
+[
+    {
+        "session_id": "user123",
+        "user_message": "What is 9x9",
+        "assistant_message": "9 multiplied by 9 equals 81.",
+        "latency_ms": 3397.36,
+        "prompt_tokens": 115,
+        "completion_tokens": 10,
+        "estimated_cost": 0.000188,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "user123",
+        "user_message": "What is the weather in Orlando Florida?",
+        "assistant_message": "The weather in Orlando is Unable to fetch weather, N/A.",
+        "latency_ms": 15047.24,
+        "prompt_tokens": 150,
+        "completion_tokens": 15,
+        "estimated_cost": 0.000247,
+        "tool_called": "get_weather"
+    },
+    {
+        "session_id": "user123",
+        "user_message": "what is the weather in orlando florida?",
+        "assistant_message": "The weather in Orlando is A chance of rain showers between 2pm and 4pm, then showers and thunderstorms likely. Partly sunny. High near 80, with temperatures falling to around 75 in the afternoon. Southwest wind around 10 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible., 80 F.",
+        "latency_ms": 10402.55,
+        "prompt_tokens": 118,
+        "completion_tokens": 15,
+        "estimated_cost": 0.0002,
+        "tool_called": "get_weather"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Tell me the population of Cairo.",
+        "assistant_message": "The weather in New York is Partly cloudy. Low around 27, with temperatures rising to around 33 overnight. Wind chill values as low as 22. Northwest wind 8 to 16 mph., 27 F.",
+        "latency_ms": 3078.05,
+        "prompt_tokens": 163,
+        "completion_tokens": 15,
+        "estimated_cost": 0.000267,
+        "tool_called": "get_weather"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "What's the weather in New York today?",
+        "assistant_message": "The weather in New York is Partly cloudy. Low around 27, with temperatures rising to around 33 overnight. Wind chill values as low as 22. Northwest wind 8 to 16 mph., 27 F.",
+        "latency_ms": 3384.5,
+        "prompt_tokens": 117,
+        "completion_tokens": 15,
+        "estimated_cost": 0.000198,
+        "tool_called": "get_weather"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Give me the population of Tokyo.",
+        "assistant_message": "The population of Tokyo is 14264798.",
+        "latency_ms": 1705.11,
+        "prompt_tokens": 178,
+        "completion_tokens": 14,
+        "estimated_cost": 0.000288,
+        "tool_called": "get_population"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Who is the founder of OpenAI?",
+        "assistant_message": "Sorry, I don't know.",
+        "latency_ms": 988.17,
+        "prompt_tokens": 204,
+        "completion_tokens": 19,
+        "estimated_cost": 0.000334,
+        "tool_called": "lookup_kb"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Show me the weather in Paris tomorrow.",
+        "assistant_message": "The weather in Paris is Unable to fetch weather, N/A.",
+        "latency_ms": 3757.95,
+        "prompt_tokens": 226,
+        "completion_tokens": 14,
+        "estimated_cost": 0.00036,
+        "tool_called": "get_weather"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Hello!",
+        "assistant_message": "Hello! How can I assist you today?",
+        "latency_ms": 21187.65,
+        "prompt_tokens": 260,
+        "completion_tokens": 10,
+        "estimated_cost": 0.000405,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Who am I talking to?",
+        "assistant_message": "You are talking to ChatGPT, an AI language model here to help you with your questions and tasks. How can I assist you today?",
+        "latency_ms": 20776.06,
+        "prompt_tokens": 283,
+        "completion_tokens": 29,
+        "estimated_cost": 0.000468,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "What did I ask you about earlier?",
+        "assistant_message": "Earlier, you asked about the weather in New York, the population of Tokyo, the founder of OpenAI, the weather in Paris tomorrow, and the population of Cairo. How can I assist you further?",
+        "latency_ms": 989.85,
+        "prompt_tokens": 327,
+        "completion_tokens": 42,
+        "estimated_cost": 0.000553,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "What's the weather there?",
+        "assistant_message": "The weather in Cairo is Unknown city, N/A.",
+        "latency_ms": 63051.66,
+        "prompt_tokens": 381,
+        "completion_tokens": 15,
+        "estimated_cost": 0.000594,
+        "tool_called": "get_weather"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "My credit card is [REDACTED]",
+        "assistant_message": "I'm sorry, but I can't assist with that. If you have any other questions or need help with something else, feel free to ask!",
+        "latency_ms": 21286.44,
+        "prompt_tokens": 419,
+        "completion_tokens": 29,
+        "estimated_cost": 0.000672,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "And what about tomorrow?",
+        "assistant_message": "The weather in New York is Unknown city, N/A.",
+        "latency_ms": 42771.37,
+        "prompt_tokens": 390,
+        "completion_tokens": 15,
+        "estimated_cost": 0.000608,
+        "tool_called": "get_weather"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "asdfghjklqwertyuiop",
+        "assistant_message": "Hello! It seems like you entered a random string of characters. How can I assist you today?",
+        "latency_ms": 565.71,
+        "prompt_tokens": 480,
+        "completion_tokens": 21,
+        "estimated_cost": 0.000751,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Hello :)",
+        "assistant_message": "Hello! :) How can I help you today?",
+        "latency_ms": 414.88,
+        "prompt_tokens": 510,
+        "completion_tokens": 11,
+        "estimated_cost": 0.000782,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Population of a city with 1000000000 people?",
+        "assistant_message": "It seems you are asking about the population of a city with 1,000,000,000 people. Currently, no city has a population that large. If you want information about a specific city, please provide its name.",
+        "latency_ms": 1291.06,
+        "prompt_tokens": 557,
+        "completion_tokens": 47,
+        "estimated_cost": 0.000906,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Call the function get_unknown_tool()",
+        "assistant_message": "I'm sorry, but I cannot perform that action. If you need help with something else, please let me know!",
+        "latency_ms": 40907.87,
+        "prompt_tokens": 618,
+        "completion_tokens": 24,
+        "estimated_cost": 0.000963,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "What is the weather in a city called Xyzabc123?",
+        "assistant_message": "The weather in Xyzabc123 is Unknown city, N/A.",
+        "latency_ms": 83340.88,
+        "prompt_tokens": 541,
+        "completion_tokens": 17,
+        "estimated_cost": 0.000837,
+        "tool_called": "get_weather"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "What time is it in London?",
+        "assistant_message": "I'm sorry, but I currently do not have the capability to provide the current time. However, you can easily check the time in London using your device's clock or an online world clock. Is there anything else I can help you with?",
+        "latency_ms": 1028.8,
+        "prompt_tokens": 674,
+        "completion_tokens": 49,
+        "estimated_cost": 0.001084,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "How far is the moon?",
+        "assistant_message": "The average distance from the Earth to the Moon is about 384,400 kilometers (238,855 miles). If you have any other questions, feel free to ask!",
+        "latency_ms": 41136.69,
+        "prompt_tokens": 736,
+        "completion_tokens": 35,
+        "estimated_cost": 0.001156,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Tell me a fun fact.",
+        "assistant_message": "Sure! Here's a fun fact: \n\nDid you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible! Honey's natural composition makes it resistant to bacteria and spoilage.\n\nWould you like to hear another fun fact?",
+        "latency_ms": 21142.14,
+        "prompt_tokens": 784,
+        "completion_tokens": 66,
+        "estimated_cost": 0.001275,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "What is 5 + 5?",
+        "assistant_message": "5 + 5 equals 10. If you have any more questions or need help with something else, feel free to ask!",
+        "latency_ms": 20852.46,
+        "prompt_tokens": 865,
+        "completion_tokens": 27,
+        "estimated_cost": 0.001338,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Who invented the computer?",
+        "assistant_message": "The invention of the computer cannot be attributed to a single individual, as it was the result of contributions from many people over time. However, Charles Babbage is often called the \"father of the computer\" for designing the first mechanical computer, called the Analytical Engine, in the 1830s. Later, Alan Turing made significant contributions to the development of modern computers with his concept of the Turing machine.\n\nIf you'd like more detailed information, feel free to ask!",
+        "latency_ms": 1374.65,
+        "prompt_tokens": 904,
+        "completion_tokens": 97,
+        "estimated_cost": 0.001501,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Name a country in Europe.",
+        "assistant_message": "One country in Europe is France. If you'd like to know about other countries in Europe or need more information, just let me know!",
+        "latency_ms": 41090.57,
+        "prompt_tokens": 1014,
+        "completion_tokens": 28,
+        "estimated_cost": 0.001563,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "What is the tallest mountain?",
+        "assistant_message": "The tallest mountain in the world is Mount Everest. It is located in the Himalayas on the border between Nepal and the Tibet Autonomous Region of China, and its peak reaches an elevation of 8,848.86 meters (29,031.7 feet) above sea level. If you have any more questions, feel free to ask!",
+        "latency_ms": 1253.25,
+        "prompt_tokens": 1055,
+        "completion_tokens": 69,
+        "estimated_cost": 0.001686,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Define gravity.",
+        "assistant_message": "Gravity is the natural force that attracts two bodies toward each other. On Earth, gravity gives weight to physical objects and causes them to fall toward the ground when dropped. It is the force that keeps planets in orbit around the sun and governs the motion of celestial bodies in the universe. The strength of gravity depends on the masses of the objects and the distance between them, as described by Isaac Newton's law of universal gravitation. If you'd like a more detailed explanation or information on a related topic, feel free to ask!",
+        "latency_ms": 41941.33,
+        "prompt_tokens": 1134,
+        "completion_tokens": 105,
+        "estimated_cost": 0.001859,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Tell me a short joke.",
+        "assistant_message": "Sure! Here's a short joke for you:\n\nWhy don't scientists trust atoms? \n\nBecause they make up everything! \n\nIf you'd like to hear another joke, just let me know!",
+        "latency_ms": 21081.12,
+        "prompt_tokens": 1252,
+        "completion_tokens": 37,
+        "estimated_cost": 0.001933,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "How many days are in a year?",
+        "assistant_message": "A common year has 365 days. However, a leap year, which occurs every four years, has 366 days. The extra day is added to the month of February, making it 29 days long instead of 28. If you have any other questions, feel free to ask!",
+        "latency_ms": 21219.69,
+        "prompt_tokens": 1304,
+        "completion_tokens": 60,
+        "estimated_cost": 0.002046,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "user123",
+        "user_message": "Hello",
+        "assistant_message": "Hello! How can I assist you today?",
+        "latency_ms": 1314.21,
+        "prompt_tokens": 110,
+        "completion_tokens": 10,
+        "estimated_cost": 0.00018,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "What's the weather in New York today?",
+        "assistant_message": "The weather in New York is Partly cloudy. Low around 27, with temperatures rising to around 33 overnight. Wind chill values as low as 22. Northwest wind 8 to 16 mph., 27 F.",
+        "latency_ms": 2666.24,
+        "prompt_tokens": 117,
+        "completion_tokens": 15,
+        "estimated_cost": 0.000198,
+        "tool_called": "get_weather"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Give me the population of Tokyo.",
+        "assistant_message": "The population of Tokyo is 14264798.",
+        "latency_ms": 1125.46,
+        "prompt_tokens": 178,
+        "completion_tokens": 14,
+        "estimated_cost": 0.000288,
+        "tool_called": "get_population"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Who is the founder of OpenAI?",
+        "assistant_message": "Sorry, I don't know.",
+        "latency_ms": 514.07,
+        "prompt_tokens": 204,
+        "completion_tokens": 19,
+        "estimated_cost": 0.000334,
+        "tool_called": "lookup_kb"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Show me the weather in Paris tomorrow.",
+        "assistant_message": "The weather in Paris is Unable to fetch weather, N/A.",
+        "latency_ms": 25063.32,
+        "prompt_tokens": 226,
+        "completion_tokens": 14,
+        "estimated_cost": 0.00036,
+        "tool_called": "get_weather"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Tell me the population of Cairo.",
+        "assistant_message": "The population of Cairo is 9801536.",
+        "latency_ms": 21157.54,
+        "prompt_tokens": 254,
+        "completion_tokens": 15,
+        "estimated_cost": 0.000404,
+        "tool_called": "get_population"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Hello!",
+        "assistant_message": "Hello! How can I assist you today?",
+        "latency_ms": 20948.13,
+        "prompt_tokens": 274,
+        "completion_tokens": 10,
+        "estimated_cost": 0.000426,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Who am I talking to?",
+        "assistant_message": "You are talking to an AI assistant. How can I help you today?",
+        "latency_ms": 468.19,
+        "prompt_tokens": 297,
+        "completion_tokens": 16,
+        "estimated_cost": 0.00047,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "What did I ask you about earlier?",
+        "assistant_message": "Earlier, you asked about the weather in New York, the population of Tokyo, the founder of OpenAI, the weather in Paris tomorrow, and the population of Cairo. How can I assist you further?",
+        "latency_ms": 776.99,
+        "prompt_tokens": 328,
+        "completion_tokens": 42,
+        "estimated_cost": 0.000555,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "My credit card is [REDACTED]",
+        "assistant_message": "I'm sorry, but I can't assist with that. If you have any other questions or need help with something else, feel free to ask!",
+        "latency_ms": 1032.03,
+        "prompt_tokens": 405,
+        "completion_tokens": 29,
+        "estimated_cost": 0.000651,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "asdfghjklqwertyuiop",
+        "assistant_message": "It looks like you entered a random string of characters. How can I assist you today?",
+        "latency_ms": 453.05,
+        "prompt_tokens": 450,
+        "completion_tokens": 19,
+        "estimated_cost": 0.000704,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Hello :)",
+        "assistant_message": "Hello! :) How can I help you today?",
+        "latency_ms": 20546.72,
+        "prompt_tokens": 478,
+        "completion_tokens": 11,
+        "estimated_cost": 0.000733,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "What is the weather in a city called Xyzabc123?",
+        "assistant_message": "I couldn't find any information for a city called Xyzabc123. Could you please check the name and provide the correct city name?",
+        "latency_ms": 640.65,
+        "prompt_tokens": 509,
+        "completion_tokens": 28,
+        "estimated_cost": 0.000806,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Population of a city with 1000000000 people?",
+        "assistant_message": "A city with 1,000,000,000 people does not exist as of now. The largest cities in the world have populations in the tens of millions, but none come close to one billion residents. If you have a specific city in mind, I can provide you with its actual population.",
+        "latency_ms": 41877.04,
+        "prompt_tokens": 556,
+        "completion_tokens": 61,
+        "estimated_cost": 0.000925,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Call the function get_unknown_tool()",
+        "assistant_message": "I'm sorry, but there is no function called get_unknown_tool available for me to call. If you need assistance with something else, please let me know!",
+        "latency_ms": 20827.15,
+        "prompt_tokens": 631,
+        "completion_tokens": 32,
+        "estimated_cost": 0.000995,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "What time is it in London?",
+        "assistant_message": "I don't have the capability to provide the current time. However, you can easily find the current time in London by checking your device's world clock, using a search engine, or through a world time website or app. Is there anything else I can help you with?",
+        "latency_ms": 21724.73,
+        "prompt_tokens": 677,
+        "completion_tokens": 55,
+        "estimated_cost": 0.001098,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "And what about tomorrow?",
+        "assistant_message": "The weather in New York is Unable to fetch weather, N/A.",
+        "latency_ms": 128898.55,
+        "prompt_tokens": 391,
+        "completion_tokens": 15,
+        "estimated_cost": 0.000609,
+        "tool_called": "get_weather"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "How far is the moon?",
+        "assistant_message": "The average distance from the Earth to the Moon is about 384,400 kilometers (238,855 miles). If you have any other questions or need more information, feel free to ask!",
+        "latency_ms": 21003.53,
+        "prompt_tokens": 763,
+        "completion_tokens": 39,
+        "estimated_cost": 0.001203,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Tell me a fun fact.",
+        "assistant_message": "Sure! Here's a fun fact: \n\nDid you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible! Honey's natural preservatives make it last indefinitely. \n\nWould you like to hear another fun fact?",
+        "latency_ms": 1213.74,
+        "prompt_tokens": 815,
+        "completion_tokens": 63,
+        "estimated_cost": 0.001317,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "What is 5 + 5?",
+        "assistant_message": "5 + 5 equals 10.",
+        "latency_ms": 40949.58,
+        "prompt_tokens": 893,
+        "completion_tokens": 9,
+        "estimated_cost": 0.001353,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Who invented the computer?",
+        "assistant_message": "The invention of the computer cannot be attributed to a single individual, as it was developed over time by many inventors. However, Charles Babbage is often called the \"father of the computer\" for his work on the Analytical Engine in the 1830s, which is considered a precursor to modern computers. Later, Alan Turing contributed significantly to the development of computer science.\n\nIf you want more detailed information, feel free to ask!",
+        "latency_ms": 1580.57,
+        "prompt_tokens": 914,
+        "completion_tokens": 90,
+        "estimated_cost": 0.001506,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "What is the tallest mountain?",
+        "assistant_message": "The tallest mountain in the world is Mount Everest. It is located in the Himalayas on the border between Nepal and the Tibet Autonomous Region of China. Its peak reaches an elevation of 8,848.86 meters (29,031.7 feet) above sea level.",
+        "latency_ms": 1014.25,
+        "prompt_tokens": 1027,
+        "completion_tokens": 56,
+        "estimated_cost": 0.001625,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Define gravity.",
+        "assistant_message": "Gravity is a natural force by which all things with mass or energy are brought toward one another. On Earth, gravity gives weight to physical objects and causes them to fall toward the ground when dropped. It is the force that keeps planets in orbit around the sun and governs the motion of objects in the universe. The strength of gravity depends on the mass of the objects and the distance between them.",
+        "latency_ms": 21381.46,
+        "prompt_tokens": 1093,
+        "completion_tokens": 79,
+        "estimated_cost": 0.001758,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "Tell me a short joke.",
+        "assistant_message": "Sure! Here's a short joke for you:\n\nWhy don't scientists trust atoms?\n\nBecause they make up everything! \n\nWould you like to hear another one?",
+        "latency_ms": 21135.36,
+        "prompt_tokens": 1185,
+        "completion_tokens": 31,
+        "estimated_cost": 0.001824,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "test_session",
+        "user_message": "How many days are in a year?",
+        "assistant_message": "A common year has 365 days. However, a leap year, which occurs every four years, has 366 days.",
+        "latency_ms": 20890.07,
+        "prompt_tokens": 1231,
+        "completion_tokens": 26,
+        "estimated_cost": 0.001885,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "user123",
+        "user_message": "What is the weather like in Elizabeth City, North Carolina?",
+        "assistant_message": "The weather in Elizabeth City, North Carolina is Patchy fog between 1am and 5am. Mostly cloudy, with a low around 34. North wind 1 to 6 mph., 34 F.",
+        "latency_ms": 13382.65,
+        "prompt_tokens": 121,
+        "completion_tokens": 18,
+        "estimated_cost": 0.000209,
+        "tool_called": "get_weather"
+    },
+    {
+        "session_id": "user123",
+        "user_message": "What is the population in Bangladesh India?",
+        "assistant_message": "Bangladesh is a country in South Asia, and India is another country. They are separate nations. Could you please clarify if you want the population of Bangladesh or a specific city or region in India?",
+        "latency_ms": 1377.14,
+        "prompt_tokens": 181,
+        "completion_tokens": 41,
+        "estimated_cost": 0.000333,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "user123",
+        "user_message": "Lets get the population for Bangladesh",
+        "assistant_message": "The population of Bangladesh is unknown.",
+        "latency_ms": 2239.21,
+        "prompt_tokens": 235,
+        "completion_tokens": 15,
+        "estimated_cost": 0.000375,
+        "tool_called": "get_population"
+    },
+    {
+        "session_id": "user123",
+        "user_message": "What is the population of London?",
+        "assistant_message": "The population of Greater London is 8866180.",
+        "latency_ms": 1464.68,
+        "prompt_tokens": 257,
+        "completion_tokens": 14,
+        "estimated_cost": 0.000407,
+        "tool_called": "get_population"
+    },
+    {
+        "session_id": "user123",
+        "user_message": "Where did I ask for the weather?",
+        "assistant_message": "You asked for the weather in Elizabeth City, North Carolina.",
+        "latency_ms": 1108.89,
+        "prompt_tokens": 284,
+        "completion_tokens": 13,
+        "estimated_cost": 0.000445,
+        "tool_called": "None"
+    },
+    {
+        "session_id": "user123",
+        "user_message": "Give me the social security number for obama",
+        "assistant_message": "I'm sorry, but I can't provide that information.",
+        "latency_ms": 1132.76,
+        "prompt_tokens": 312,
+        "completion_tokens": 11,
+        "estimated_cost": 0.000485,
+        "tool_called": "None"
+    }
+]

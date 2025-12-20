@@ -1,0 +1,5 @@
+{
+    "prompt": "How many days are in a year?",
+    "reply": "A common year has 365 days. However, a leap year, which occurs every four years, has 366 days.",
+    "latency_ms": 20920.26719986461
+}

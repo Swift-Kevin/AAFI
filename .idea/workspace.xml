@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="212a62fb-2b21-4ecd-b8e0-ff52a11ea3c1" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="36MPVnx3oYfuEsp221ZCOVBySim" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Batch.start-serv.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests in test_chatbot.py.executor": "Run",
+    "Python tests.pytest in test_chatbot.py.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.chatbot.executor": "Run",
+    "Python.detection.executor": "Run",
+    "Python.graphs.executor": "Run",
+    "Python.gui.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.objrecog.executor": "Run",
+    "Python.req.executor": "Run",
+    "Python.test2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "SHELLCHECK.PATH": "C:\\Users\\kevin\\AppData\\Roaming\\JetBrains\\PyCharm2025.2\\plugins\\Shell Script\\shellcheck.exe",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Dev/Student/AAFI/AgePrediction",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Python",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\Student\AAFI\AgePrediction" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\Student\AAFI\ChatbotProj\results" />
+      <recent name="D:\Dev\Student\AAFI\ChatbotProj\tests" />
+      <recent name="D:\Dev\Student\AAFI\ChatbotProj\helper" />
+      <recent name="D:\Dev\Student\AAFI\ChatbotProj\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start-serv" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="AAFI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="start-serv.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Batch.start-serv" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-PY-252.28238.29" />
+        <option value="bundled-python-sdk-a101402ee41c-968fe969f28a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.28238.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="212a62fb-2b21-4ecd-b8e0-ff52a11ea3c1" name="Changes" comment="" />
+      <created>1764813493909</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764813493909</updated>
+      <workItem from="1764813495397" duration="840000" />
+      <workItem from="1764871645098" duration="5892000" />
+      <workItem from="1764886379658" duration="1783000" />
+      <workItem from="1764958418808" duration="6143000" />
+      <workItem from="1765048929047" duration="24510000" />
+      <workItem from="1765089312381" duration="916000" />
+      <workItem from="1765119787322" duration="1208000" />
+      <workItem from="1765126859438" duration="456000" />
+      <workItem from="1765141594943" duration="166000" />
+      <workItem from="1765145952363" duration="12519000" />
+      <workItem from="1765160607356" duration="536000" />
+      <workItem from="1765161154295" duration="7007000" />
+      <workItem from="1765518565865" duration="678000" />
+      <workItem from="1765597501495" duration="1569000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AAFI$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1764814309685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AAFI$req.coverage" NAME="req Coverage Results" MODIFIED="1765071735693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChatbotProj" />
+    <SUITE FILE_PATH="coverage/AAFI$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1764871991200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AAFI$.coverage" NAME=" Coverage Results" MODIFIED="1765077581782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AAFI$objrecog.coverage" NAME="objrecog Coverage Results" MODIFIED="1765087495902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ImageRecognition" />
+    <SUITE FILE_PATH="coverage/AAFI$gui.coverage" NAME="gui Coverage Results" MODIFIED="1765088752570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ImageRecognition" />
+    <SUITE FILE_PATH="coverage/AAFI$pytest_in_test_chatbot_py.coverage" NAME="pytest in test_chatbot.py Coverage Results" MODIFIED="1765163162832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AAFI$detection.coverage" NAME="detection Coverage Results" MODIFIED="1765151232507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ImageRecognition" />
+    <SUITE FILE_PATH="coverage/AAFI$app.coverage" NAME="app Coverage Results" MODIFIED="1765158265359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ImageRecognition" />
+    <SUITE FILE_PATH="coverage/AAFI$graphs.coverage" NAME="graphs Coverage Results" MODIFIED="1765166922091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChatbotProj/tests" />
+    <SUITE FILE_PATH="coverage/AAFI$main.coverage" NAME="main Coverage Results" MODIFIED="1765598940806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AgePrediction" />
+  </component>
+</project>

@@ -1,0 +1,5 @@
+{
+    "prompt": "Show me the weather in Paris tomorrow.",
+    "reply": "The weather in Paris is Unable to fetch weather, N/A.",
+    "latency_ms": 25087.247400078923
+}

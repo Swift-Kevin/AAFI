@@ -1,0 +1,5 @@
+{
+    "prompt": "What is 5 + 5?",
+    "reply": "Exception: HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=30)",
+    "latency_ms": 30032.831400167197
+}
